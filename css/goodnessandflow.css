@@ -1,0 +1,215 @@
+/*优势部分start===================*/
+/*中间文字部分*/
+
+.middle {
+    position: relative;
+}
+
+.middle #goodnessBg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -275px;
+}
+
+.middle .circle {
+    width: 800px;
+    height: 550px;
+    /*background: url("../images/a_89.png") no-repeat center;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.middle h4 {
+    font-size: 24px;
+    color: #009fde;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.middle p {
+    text-align: center;
+    font-family: "microsoft yahei";
+}
+
+.middle .p1 {
+    font-size: 40px;
+    color: #980101;
+    padding-top: 165px;
+    font-weight: 700;
+}
+
+.middle .p2 {
+    font-size: 30px;
+    color: #009fde;
+    margin-bottom: 110px;
+}
+
+.middle .p3 {
+    font-size: 22px;
+    color: #fff;
+}
+
+/*视频部分*/
+.goodness .mv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.goodness video {
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -10;
+    visibility: visible;
+    background-size: cover;
+}
+/*优势部分end*/
+
+/*session5*/
+/*流程部分start*/
+.flow {
+    height: 952px;
+    background: url("../images/bg_06.jpg") no-repeat;
+}
+
+.flow h4 {
+    text-align: center;
+    color: #009fde;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.flow .list {
+    width: 1160px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px;
+}
+
+.flow .list ul {
+    float: left;
+    width: 150px;
+    padding: 30px 20px 0;
+    position: absolute;
+}
+
+.flow .list li {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 12px;
+    width: 130px;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/*top:133px;*/
+.flow .list .list1 {
+    top: 32px;
+    opacity: 0;
+}
+
+/*top:100px;*/
+.flow .list .list2 {
+    left: 200px;
+    top: 0;
+    opacity: 0;
+}
+
+/*top:66px;*/
+.flow .list .list3 {
+    left: 400px;
+    top: -34px;
+    opacity: 0;
+}
+
+.flow .list .list4 {
+    left: 600px;
+    top: -100px;
+    opacity: 0;
+}
+
+/*top:34px;*/
+.flow .list .list5 {
+    left: 800px;
+    top: -66px;
+    opacity: 0;
+}
+
+/*top:66px;*/
+.flow .list .list6 {
+    left: 1000px;
+    top: -34px;
+    opacity: 0;
+}
+
+.flow .list1 li {
+    background-color: #f2980c;
+}
+
+.flow .list2 li {
+    background-color: #1bb1ed;
+}
+
+.flow .list3 li {
+    background-color: #0099d6;
+}
+
+.flow .list4 li {
+    background-color: #007daf;
+}
+
+.flow .list5 li {
+    background-color: #005c81;
+}
+
+.flow .list6 li {
+    background-color: #167b75;
+}
+
+.flow .list1 .last {
+    background: url("../images/jj_02.png") no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 10px 10px 40px;
+}
+
+.flow .list2 .last {
+    background: url("../images/jj_04.png") no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 10px 10px 40px;
+}
+
+.flow .list3 .last {
+    background: url("../images/jj_06.png") no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 10px 10px 40px;
+}
+
+.flow .list4 .last {
+    background: url("../images/jj_08.png") no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 10px 10px 40px;
+}
+
+.flow .list5 .last {
+    background: url("../images/jj_10.png") no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 10px 10px 40px;
+}
+
+.flow .list6 .last {
+    background: url("../images/jj_12.png") no-repeat bottom center;
+    background-size: 100% auto;
+    padding: 10px 10px 40px;
+}

@@ -1,0 +1,263 @@
+
+.w {
+    width: 1160px;
+    margin: 0 auto;
+    /*border: 1px solid #000;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+/*案例*/
+.case {
+    /*background: url("../images/bg_03.jpg") no-repeat;*/
+    position: relative;
+
+}
+
+.caseContent h2 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    z-index: 3;
+    padding-top: 60px;
+}
+
+.caseContent h3 {
+    text-align: center;
+    /*border: 1px solid #000;*/
+    position: relative;
+    font-size: 20px;
+    z-index: 3;
+
+}
+
+.caseContent .caseTheme .case-ul {
+    position: absolute;
+    top: 200px;
+
+}
+
+.caseContent .caseTheme .case-ul li {
+    float: left;
+    padding: 10px 10px;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiTop {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiTop .caseImg {
+    width: 270px;
+    height: 159px;
+    display: block;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiTop img {
+    width: 270px;
+    height: 159px;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiTop .mask-top {
+    width: 270px;
+    height: 159px;
+    background: rgba(0, 0, 0, 0);
+    /*background: url("../images/da_03.png")*/
+    position: absolute;
+    top: -159px;
+    left: 0;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiBtm {
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiBtm a {
+    display: block;
+    width: 270px;
+    height: 159px;
+    color: black;
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    top: 5px;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiBtm a span {
+    margin-top: 5px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiBtm a p {
+    font-size: 14px;
+}
+
+.caseContent .caseTheme .case-ul li .caseLiBtm .mask-btm {
+    width: 270px;
+    height: 50px;
+    background: rgba(15, 164, 223, 0.9);
+    /*background-color: #00aef3;*/
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+/*session3*/
+/*==========客户开始========*/
+.customer {
+    /*background: url("../images/bg_04.jpg") no-repeat;*/
+    height: 700px;
+    position: relative;
+
+}
+
+.customer .w {
+    height: 700px;
+
+}
+
+.customer h2 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 60px;
+    position: relative;
+    z-index: 3;
+}
+
+.customer h3 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+
+    color: #009fde;
+    position: relative;
+    z-index: 3;
+
+}
+
+.customer .customerTheme {
+    position: absolute;
+    width: 1160px;
+    top: 150px;
+}
+
+.customer .customerTheme .customer-ul {
+    padding: 20px 20px;
+    position: relative;
+}
+
+.customer .customerTheme .customer-ul li {
+    position: relative;
+    z-index: 10;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: -1px;
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+}
+
+.customer .customerTheme .customer-ul li img {
+    width: 213px;
+    height: 136px;
+}
+
+.customer .customerTheme #aCustomer {
+    color: #009fde;
+}
+
+/*翻转*/
+.customerTheme {
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.customerTheme .pic2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.customerTheme .pic1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.customerTheme .pic2 img {
+    position: absolute;
+}
+
+.customerTheme .image_container a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+}
+
+.customerTheme.image_container {
+    float: left;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 46px;
+    position: relative;
+    z-index: 10;
+}
+
+.customerTheme .image_container a .pic1 {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.customerTheme .image_container a:hover .pic1 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.customerTheme .image_container a .pic2 {
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    /*z-index:10;
+        position:absolute;*/
+}
+
+.customerTheme .image_container a:hover .pic2 {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotate(0deg);
+    z-index: 10;
+    position: absolute;
+}
+
+/*==========客户结束========*/

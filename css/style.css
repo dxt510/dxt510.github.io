@@ -1,0 +1,264 @@
+/*主页部分----------------------------------------------*/
+#indexBgImg {
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+}
+
+#indexBgImg img {
+    float: left;
+    height: 100%;
+}
+
+#indexBtn {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+#indexBtn a {
+    float: left;
+    width: 50px;
+    height: 5px;
+    background-color: #a6a6a6;
+    margin: 0 5px;
+}
+
+#indexText {
+    position: absolute;
+    width: 860px;
+    height: 270px;
+    top: 50%;
+    margin-top: -135px;
+    left: 50%;
+    margin-left: -430px;
+}
+
+#indexText img {
+    width: 0px;
+    position: absolute;
+    opacity: 0;
+    left: 430px;
+}
+
+#indexText .indexOne {
+    width: 860px;
+    opacity: 1;
+    left: 0px;
+
+}
+
+/*session1*/
+/*服务部分-------------------------------------------------*/
+.content > img {
+    width: 100%;
+}
+.serve {
+    width: 1160px;
+    height: 665px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.serve > h2 {
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    top: -20px;
+    opacity: 0;
+}
+
+.serve > h3 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #009fde;
+    font-size: 20px;
+    top: 50px;
+    opacity: 0;
+}
+
+.serve > h3 img {
+    width: 300px;
+}
+
+.serve .what {
+    position: absolute;
+    bottom: 0;
+}
+
+.serve .what ul li {
+    float: left;
+    width: 220px;
+    height: 352px;
+    padding-top: 35px;
+    margin: 0 34px;
+    position: relative;
+}
+
+.serve .what ul li .tw_1 {
+    width: 154px;
+    height: 164px;
+    margin: 0 auto;
+    background-image: url("../images/s_1.png");
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .tw_2 {
+    width: 154px;
+    height: 164px;
+    margin: 0 auto;
+    background-image: url("../images/s_2.png");
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .tw_3 {
+    width: 154px;
+    height: 164px;
+    margin: 0 auto;
+    background-image: url("../images/s_3.png");
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .tw_4 {
+    width: 154px;
+    height: 164px;
+    margin: 0 auto;
+    background-image: url("../images/s_4.png");
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .st {
+    height: 30px;
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .spec {
+    height: 75px;
+    color: #666;
+    font-size: 12px;
+    line-height: 24px;
+    border-bottom: 2px solid #009fde;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .sx {
+    height: 5px;
+    background-color: #009fde;
+    border-radius: 5px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 3;
+}
+
+.serve .what ul li .bg {
+    width: 100%;
+    height: 0;
+    background-color: #009fde;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    z-index: 0;
+}
+
+/*团队部分--------------------------------------------*/
+.team {
+    position: absolute;
+    width: 1160px;
+    height: 580px;
+    top: 50%;
+    margin-top: -290px;
+    left: 50%;
+    margin-left: -580px;
+    overflow: hidden;
+}
+
+.team ul {
+    width: 1545px;
+    position: absolute;
+}
+
+.team li {
+    float: left;
+    width: 193px;
+    height: 193px;
+    position: relative;
+}
+
+.team li img {
+    position: absolute;
+}
+
+.team li span {
+    position: absolute;
+    width: 0;
+    height: 193px;
+    z-index: 3;
+    overflow: hidden;
+    background-color: #009FDE;
+}
+
+.team li span h2 {
+    display: block;
+    width: 355px;
+    margin: 10px 10px 25px 20px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.team li span h4 {
+    display: block;
+    width: 355px;
+    margin: 10px 10px 2em 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.team li span p {
+    display: block;
+    width: 355px;
+    margin: 10px 10px 10px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.team li .rt {
+    left: 193px;
+}
+
+.team li .lf {
+    right: 193px;
+}
+
+.team-btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 95%;
+}
+
+.team-btn > a {
+    float: left;
+    margin: 0 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #ccc;
+
+}

@@ -1,0 +1,268 @@
+/*
+* @Author: Marte
+* @Date:   2017-04-01 23:55:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-01 23:55:49
+*/
+
+/* Reset CSS
+         * --------------------------------------- */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+/* Custom CSS
+         * --------------------------------------- */
+
+body {
+    font-family: arial, helvetica;
+    color: #F2F2F2;
+}
+
+.content {
+    position: relative;
+    height: 100%;
+    /*内容居中*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /*text-align: center;*/
+}
+
+.content > img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*导航部分*/
+.nav-top {
+    position: fixed;
+    height: 52px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    width: 100%;
+}
+
+.nav-top .top-t {
+    width: 1160px;
+    margin: 0 auto;
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+}
+
+.nav-top .top-left {
+    height: 52px;
+    float: left;
+}
+
+.nav-top .top-left img {
+    width: 172px;
+    height: 52px;
+}
+
+.nav-top .top-right {
+    height: 52px;
+    float: right;
+    position: relative;
+}
+
+.nav-top .top-right ul {
+    position: relative;
+}
+
+.top-right ul li {
+    float: left;
+    padding: 0 30px;
+}
+
+.nav-top .top-right ul li a {
+    display: block;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "΢���ź�";
+    font-weight: bold;
+}
+
+.nav-top .top-right #right-line1 {
+    width: 52px;
+    height: 3px;
+    margin-left: 18px;
+    background-color: #009FDE;
+    display: block;
+    position: absolute;
+    top: 49px;
+}
+
+.slider {
+    width: 55px;
+    padding: 10px 0;
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 80px;
+    border-radius: 8px 0 0 8px;
+}
+
+.slider ul {
+    width: 55px;
+    position: relative;
+}
+
+.slider ul li {
+    height: 50px;
+    width: 55px;
+    position: relative;
+}
+
+.slider ul li .tel {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px 0 0 5px;
+}
+
+.slider ul li .tel img {
+    margin-left: 10px;
+}
+
+.slider ul li a img {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/*左侧导航*/
+.left-nav {
+    position: fixed;
+    z-index: 10;
+    left: 20px;
+    top: 50%;
+    margin-top: -113px;
+}
+
+.left-nav ul li {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin: 10px 7px;
+    position: relative;
+}
+
+.left-nav ul li a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+}
+
+.left-nav ul li span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #cccccc;
+}
+
+.left-nav ul li em {
+    text-align: left;
+    position: absolute;
+    font-size: 12px;
+    left: 20px;
+    width: 100px;
+    color: #009fde;
+    opacity: 0;
+}

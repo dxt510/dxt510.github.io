@@ -1,0 +1,93 @@
+
+div, span, i, s, p {
+    margin: 0;
+    padding: 0;
+}
+
+i, s {
+    font-style: normal;
+
+}
+
+.bx {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.cor-blue {
+    color: rgb(13, 111, 166);
+}
+
+.phone-number {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.contact .contact-w {
+    /*/padding-top: 50px;*/
+    position: relative;
+    top: 100px; /*---*/
+    height: 510px;
+
+}
+
+.contact .con-left {
+    width: 385px;
+    height: 250px;
+    /*float: left;*/
+    position: absolute; 
+    top: 200px; 
+    left: -300px; 
+    opacity: 0; 
+    /*margin-top: 200px;*/
+    /*margin-left: 40px;*/
+}
+
+.contact .con-left span {
+    float: right;
+    width: 115px;
+    height: 115px;
+    margin-top: 30px;
+    display: block;
+    background: url("../images/a_118.png") no-repeat;
+    margin-right: 18px;
+}
+
+.contact .con-right {
+    width: 635px;
+    height: 510px;
+    /*float: right;*/
+    padding-left: 40px;
+    border-left: 1px solid #ccc;
+    position: absolute; 
+    left: 2000px;
+    color: #000;
+}
+
+.contact .con-right-top {
+    font-size: 30px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.contact .con-right-mid {
+    height: 300px;
+    background: url("../images/a_113.png") no-repeat 0 -20px;
+    font-size: 15px;
+    color: #666;
+    margin: 20px 0px 0px 0px;
+    line-height: 36px;
+    padding-left: 30px;
+    width: 605px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact .con-right-btm {
+    line-height: 24px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+    font-size: 14px;
+}
